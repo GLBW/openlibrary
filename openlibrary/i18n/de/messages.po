@@ -39,40 +39,40 @@ msgid ""
 "the verification link to update your email."
 msgstr ""
 "Wir haben eine Email an %(email)s verschickt. Bitte lesen Sie diese und klicken sie auf "
-"den Bestätigungs-Link, um ihre Email-Adresse zu aktualisieren."
+"den Bestätigungs-Link, um ihre E-Mail-Adresse zu aktualisieren."
 
 #: account.py:441
 msgid "Email address is already used."
-msgstr "Email-Adresse wird bereits verwendet."
+msgstr "E-Mail-Adresse wird bereits verwendet."
 
 #: account.py:442
 msgid ""
 "Your email address couldn't be updated. The specified email address is "
 "already used."
 msgstr ""
-"Ihre Email-Adresse konnte nicht aktualisiert werden. Die angegebene Adresse ist "
+"Ihre E-Mail-Adresse konnte nicht aktualisiert werden. Die angegebene Adresse ist "
 "bereits in Benutzung."
 
 #: account.py:446
 msgid "Email verification successful."
-msgstr "Email-Adresse erfolgreich bestätigt."
+msgstr "E-Mail-Adresse erfolgreich bestätigt."
 
 #: account.py:447
 msgid ""
 "Your email address has been successfully verified and updated in your "
 "account."
 msgstr ""
-"Ihre Email-Adresse wurde erfolgreich bestätigt und aktualisiert."
+"Ihre E-Mail-Adresse wurde erfolgreich bestätigt und aktualisiert."
 
 #: account.py:451
 msgid "Email address couldn't be verified."
-msgstr "Email-Adresse konnte nicht bestätigt werden."
+msgstr "E-Mail-Adresse konnte nicht bestätigt werden."
 
 #: account.py:452
 msgid ""
 "Your email address couldn't be verified. The verification link seems "
 "invalid."
-msgstr "Ihre Email-Adresse konnte nicht bestätigt werden. Der Bestätigungs-Link scheint "
+msgstr "Ihre E-Mail-Adresse konnte nicht bestätigt werden. Der Bestätigungs-Link scheint "
 "ungültig zu sein."
 
 #: account.py:485
@@ -97,11 +97,11 @@ msgstr "Passwort"
 
 #: forms.py:25
 msgid "No user registered with this email address"
-msgstr "Kein Nutzer ist mit dieser Email-Adresse registriert"
+msgstr "Kein Nutzer ist mit dieser E-Mail-Adresse registriert"
 
 #: forms.py:26
 msgid "Email already registered"
-msgstr "Email-Adresse bereits registriert"
+msgstr "E-Mail-Adresse bereits registriert"
 
 #: forms.py:27
 msgid "Disposable email not permitted"
@@ -109,7 +109,7 @@ msgstr "Wegwerfadressen sind nicht erlaubt"
 
 #: forms.py:28
 msgid "Your email provider is not recognized."
-msgstr "Ihr Email-Provider wird nicht anerkannt."
+msgstr "Ihr E-Mail-Provider wird nicht anerkannt."
 
 #: forms.py:29
 msgid "Username already used"
@@ -117,19 +117,19 @@ msgstr "Benutzername bereits vergeben"
 
 #: forms.py:31
 msgid "Must be between 3 and 20 letters and numbers"
-msgstr "Muss zwischen 3 und 20 Buchstaben und Ziffern lang sein"
+msgstr "Muss zwischen drei und 20 Buchstaben und Ziffern lang sein"
 
 #: forms.py:32
 msgid "Must be between 3 and 20 characters"
-msgstr "Muss zwischen 3 und 20 Zeichen lang sein"
+msgstr "Muss zwischen drei und 20 Zeichen lang sein"
 
 #: forms.py:33
 msgid "Must be a valid email address"
-msgstr "Muss eine gültige Email-Adresse sein"
+msgstr "Muss eine gültige E-Mail-Adresse sein"
 
 #: forms.py:47 forms.py:100
 msgid "Your email address"
-msgstr "Ihre Email-Adresse"
+msgstr "Ihre E-Mail-Adresse"
 
 #: create.html:44 forms.py:50
 msgid "Choose a screen name"
@@ -137,7 +137,7 @@ msgstr "Wählen Sie einen Anzeigenamen"
 
 #: forms.py:52
 msgid "Only letters and numbers, please, and at least 3 characters."
-msgstr "Bitte mindestens 3 Zeichen eingeben und nur Buchstaben und Ziffern verwenden."
+msgstr "Bitte mindestens drei Zeichen eingeben und nur Buchstaben und Ziffern verwenden."
 
 #: forms.py:54 forms.py:104
 msgid "Choose a password"
@@ -165,7 +165,7 @@ msgstr "Neues Passwort wählen"
 
 #: email.html:24 forms.py:96
 msgid "Your new email address"
-msgstr "Ihre neue Email-Adresse"
+msgstr "Ihre neue E-Mail-Adresse"
 
 #: edit.html:20
 msgid "Edit Author"
@@ -180,8 +180,8 @@ msgid ""
 "Please use natural order. For example: <strong>Leo Tolstoy</strong> not "
 "<strong>Tolstoy, Leo</strong>."
 msgstr ""
-"Bitte benutzen Sie die natürliche Reihenfolge. Zum Beispiel: <strong>Leo Tolstoy</strong>, nicht "
-"<strong>Tolstoy, Leo</strong>
+"Bitte benutzen Sie die natürliche Reihenfolge. Zum Beispiel: <strong>Lew Tolstoi</strong>, nicht "
+"<strong>Tolstoi, Lew</strong>
 
 #: edit.html:36 edit.html:153 edit/addfield.html:96 edit/addfield.html:141
 msgid "Required field"
@@ -204,7 +204,7 @@ msgid ""
 "If you \"borrow\" information from somewhere, please make sure to cite "
 "the source."
 msgstr ""
-"Wenn Sie informationen von anderer Stelle \"leihen\", zitieren Sie bitte "
+"Wenn Sie informationen von anderer Stelle „leihen“, zitieren Sie bitte "
 "Ihre Quelle."
 
 #: edit.html:70
@@ -238,7 +238,7 @@ msgstr "Zum Beispiel:"
 
 #: edit.html:108
 msgid "Websites"
-msgstr "Internetseiten"
+msgstr "Websites"
 
 #: edit.html:109
 msgid "Deprecated"
@@ -250,7 +250,7 @@ msgstr "Eintrag löschen"
 
 #: view.html:132
 msgid "Website"
-msgstr "Internetseite"
+msgstr "Website"
 
 #: view.html:138
 msgid "Location"
@@ -270,7 +270,7 @@ msgstr "Ausgeliehene Bücher"
 
 #: borrow.html:81
 msgid "1 Current Loan"
-msgstr "1 ausgeliehenes Buch"
+msgstr "Ein ausgeliehenes Buch"
 
 #: borrow.html:83
 msgid "Current Loans"
@@ -318,7 +318,7 @@ msgstr[1] "%(count)s Personen stehen vor Ihnen auf der Warteliste."
 
 #: borrow.html:260
 msgid "There are 2 different sources for borrowing books through Open Library:"
-msgstr "Es gibt 2 verschiedene Quellen, von denen man Bücher über Open Library entleihen kann:"
+msgstr "Es gibt zwei verschiedene Quellen, von denen man Bücher über Open Library entleihen kann:"
 
 #: borrow.html:264
 msgid "Internet Archive"
@@ -434,7 +434,7 @@ msgstr ""
 
 #: create.html:45 create.html:56 create.html:65
 msgid "Letters and numbers only please, and at least 3 characters."
-msgstr "Bitte mindestens 3 Zeichen, sowie nur Buchstaben und Ziffern."
+msgstr "Bitte mindestens drei Zeichen, sowie nur Buchstaben und Ziffern."
 
 #: create.html:74
 msgid "Please type in the text or number(s) below."
@@ -482,11 +482,11 @@ msgstr "Einstellungen"
 
 #: email.html:8
 msgid "Change Your Email Address"
-msgstr "Email-Adresse ändern"
+msgstr "E-Mail-Adresse ändern"
 
 #: email.html:18
 msgid "Your current email address is"
-msgstr "Ihre aktuelle Email-Adresse ist"
+msgstr "Ihre aktuelle E-Mail-Adresse ist"
 
 #: email.html:35
 msgid "Change It"
@@ -498,7 +498,7 @@ msgstr "Ups!"
 
 #: not_verified.html:32 verify/failed.html:25
 msgid "Resend the verification email"
-msgstr "Bestätigungs-Email erneut versenden"
+msgstr "Bestätigungs-E-Mail erneut versenden"
 
 #: notifications.html:3 notifications.html:12
 msgid "Notifications from Open Library"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: notifications.html:28
 msgid "Would you like to receive very occasional emails from Open Library?"
-msgstr "Möchten Sie ab und zu Emails von Open Library bekommen?"
+msgstr "Möchten Sie ab und zu E-Mails von Open Library bekommen?"
 
 #: notifications.html:35
 msgid "No, thank you"
@@ -569,11 +569,11 @@ msgstr "Nein"
 
 #: verify.html:3
 msgid "Verification email sent"
-msgstr "Bestätigungs-Email verschickt"
+msgstr "Bestätigungs-E-Mail verschickt"
 
 #: email/forgot-ia.html:6 email/forgot.html:6
 msgid "Forgot Your Internet Archive Email?"
-msgstr "Internet-Archive-Email vergessen?"
+msgstr "Internet-Archive-E-Mail vergessen?"
 
 #: email/forgot-ia.html:39 password/forgot.html:6
 msgid "Forgot your Archive.org Password?"
@@ -581,7 +581,7 @@ msgstr "Archive.org-Passwort vergessen?"
 
 #: email/forgot.html:11
 msgid "Forgot Your Open Library Email?"
-msgstr "Open-Library-Email vergessen?"
+msgstr "Open-Library-E-Mail vergessen?"
 
 #: email/forgot.html:44 openlibrary/templates/login.html:68
 msgid "Forgot your Password?"
@@ -651,25 +651,27 @@ msgstr ""
 
 #: verify/failed.html:3
 msgid "Email Verification Failed"
-msgstr ""
+msgstr "E-Mail-Bestätigung fehlgeschlagen"
 
 #: verify/failed.html:10
 msgid ""
 "Your email address couldn't be verified. Your verification link seems "
 "invalid or expired."
 msgstr ""
+"Ihre E-Mail-Adresse konnte nicht bestätigt werden. Ihr Bestätungungs-Link scheint "
+"ungültig oder verfallen zu sein."
 
 #: verify/failed.html:18
 msgid "Enter your email address here"
-msgstr ""
+msgstr "Geben Sie bitte hier Ihre E-Mail-Adresse an"
 
 #: verify/failed.html:21
 msgid "No user registered with this email address."
-msgstr ""
+msgstr "Kein Benutzer mit dieser E-Mail-Adresse registriert."
 
 #: verify/success.html:3
 msgid "Email Verification Successful"
-msgstr ""
+msgstr "E-Mail-Bestätigung erfolgreich""
 
 #: verify/success.html:11
 #, python-format
@@ -680,11 +682,11 @@ msgstr ""
 
 #: add.html:3 check.html:3
 msgid "Add a book"
-msgstr ""
+msgstr "Buch hinzufügen"
 
 #: add.html:7
 msgid "Add a book to Open Library"
-msgstr ""
+msgstr "Buch zur Open Library hinzufügen"
 
 #: add.html:9
 msgid ""
@@ -695,12 +697,12 @@ msgstr ""
 #: add.html:20 edit.html:153 nav_head.html:39 search_foot.html:4
 #: search_head.html:4
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: add.html:30 edit.html:159 nav_head.html:40 search_foot.html:5
 #: search_head.html:5
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: add.html:30
 msgid ""
@@ -710,11 +712,11 @@ msgstr ""
 
 #: add.html:42 edit/edition.html:93
 msgid "Who is the publisher?"
-msgstr ""
+msgstr "Wie lautet der Verlag?"
 
 #: add.html:49 edit/edition.html:103
 msgid "When was it published?"
-msgstr ""
+msgstr "Was ist es erschienen?"
 
 #: add.html:49
 msgid "The year it was published is plenty."
@@ -792,7 +794,7 @@ msgstr ""
 
 #: edit.html:83
 msgid "Editing..."
-msgstr "Wird bearbeitet..."
+msgstr "Wird bearbeitet…"
 
 #: edit.html:114
 msgid "Create a new record for"
@@ -824,7 +826,7 @@ msgstr "Dieses Buch löschen?"
 
 #: edition-show.html:57
 msgid "There is only 1 edition record, so we'll show it here..."
-msgstr "Es gibt nur einen Eintrag für eine Ausgabe, hier ist er..."
+msgstr "Es gibt nur einen Eintrag für eine Ausgabe, hier ist er…"
 
 #: edition-show.html:59
 msgid "Add another edition of"
@@ -968,15 +970,15 @@ msgstr "Um welche Zeit geht es?"
 
 #: edit/addcover.html:11
 msgid "There are two ways to get a cover image on Open Library:"
-msgstr ""
+msgstr "Es gibt zwei Wege, um ein Titelbild in Open Library zu bekommen:"
 
 #: edit/addcover.html:14
 msgid "Either choose a JPG, GIF or PNG on your computer,"
-msgstr ""
+msgstr "Entweder wählen Sie eine JPG-, GIF- oder PNG-Datei auf Ihrem Rechner "
 
 #: edit/addcover.html:22
 msgid "<u>Or</u></span>, paste in a URL to an image if it's on the web."
-msgstr ""
+msgstr "<u>oder</u></span> geben Sie eine Webadresse eines Bild im Internet an."
 
 #: edit/addcover.html:31
 msgid "Upload"
@@ -1064,11 +1066,11 @@ msgstr "Gibt es ein Copyright-Datum?"
 
 #: edit/edition.html:125
 msgid "The year following the copyright statement."
-msgstr ""
+msgstr "Das Jahr gefolgt vom Copyright-Hinweis."
 
 #: edit/edition.html:134
 msgid "Is the book part of a series?"
-msgstr "Ist das Buch teil einer Reihe?"
+msgstr "Ist das Buch Teil einer Reihe?"
 
 #: edit/edition.html:135
 msgid "The name of the publisher's series."
@@ -1087,7 +1089,7 @@ msgid ""
 "Sometimes editions can be associated with the wrong work. You can correct"
 " that here."
 msgstr ""
-"Manchmal sind Ausgaben dem falschen Werk zugeordnet. sie können dies "
+"Manchmal sind Ausgaben dem falschen Werk zugeordnet. Sie können dies "
 " hier korrigieren."
 
 #: edit/edition.html:154
@@ -1293,7 +1295,7 @@ msgstr "IDs können keine Leerzeichen enthalten"
 
 #: edit/edition.html:697
 msgid "ID must be exactly 10 characters [0-9] or X."
-msgstr "ID muss aus exakt 10 Ziffern (0-9), oder Xs bestehen."
+msgstr "ID muss aus exakt zehn Ziffern (0–9), oder Xs bestehen."
 
 #: edit/edition.html:700
 msgid "ID must be exactly 13 digits [0-9]."
@@ -1337,7 +1339,7 @@ msgstr "Eine optionale Notiz hinzufügen."
 
 #: edit/excerpts.html:52
 msgid "Excerpts so far..."
-msgstr "Bisherige Auszüge..."
+msgstr "Bisherige Auszüge…"
 
 #: edit/excerpts.html:66 edit/excerpts.html:88
 msgid "noted:"
@@ -1369,7 +1371,7 @@ msgstr ""
 
 #: edit/web.html:18
 msgid "Give your link a label"
-msgstr ""
+msgstr "Geben Sie Ihrem Link eine Bezeichnung"
 
 #: edit/web.html:56 edit/web.html:65
 msgid "Remove this link"
@@ -1377,11 +1379,11 @@ msgstr "Diesen Link entfernen"
 
 #: edit/web.html:85
 msgid "Please provide a URL."
-msgstr "Bitte geben sie eine URL an (Link zu einer Website)."
+msgstr "Bitte geben sie eine Webadresse an."
 
 #: edit/web.html:90
 msgid "Please provide a label."
-msgstr ""
+msgstr "Bitte geben Sie eine Bezeichnung an."
 
 #: edit/web.html:103
 msgid ""
@@ -1419,7 +1421,7 @@ msgstr "<strong>Wählen Sie eines</strong> der existierenden Umschlagsbilder,"
 
 #: add.html:102
 msgid "Choose a JPG, GIF or PNG on your computer,"
-msgstr "wählen Sie ein JPG, GIF oder PNG von Ihrem Computer,"
+msgstr "wählen Sie eine JPG-, GIF- oder PNG-Datei von Ihrem Computer,"
 
 #: add.html:111
 msgid "<u>Or</u></span>, paste in the image URL if it's on the web."
@@ -1436,14 +1438,14 @@ msgstr "Schließen"
 
 #: change.html:81
 msgid "One sec, we're searching for covers..."
-msgstr "Eine Sekunde, wir suchen nach Umschlags-Bildern..."
+msgstr "Eine Sekunde, wir suchen nach Umschlags-Bildern…"
 
 #: manage.html:25
 msgid ""
 "You can drag and drop thumbnails to reorder, or into the trash to delete "
 "them."
 msgstr ""
-"Sie können die Vorschaubilder per Drag & Drop neu anordnen, oder zum Löschen "
+"Sie können die Vorschaubilder per Kopieren & Einfügen neu anordnen, oder zum Löschen "
 "in den Papierkorb ziehen."
 
 #: saved.html:21
@@ -1492,11 +1494,11 @@ msgstr "Abbrechen und zurück"
 
 #: edit_head.html:14 view_head.html:10
 msgid "This doc was last edited by"
-msgstr "Letzte Bearbeitung dieses docs von"
+msgstr "Letzte Bearbeitung dieses Dokuments von"
 
 #: edit_head.html:16 view_head.html:12
 msgid "This doc was last edited anonymously"
-msgstr "Dieses doc wurde zuletzt anonym bearbeitet"
+msgstr "Dieses Dokument wurde zuletzt anonym bearbeitet"
 
 #: history.html:15
 msgid "History"
@@ -1688,7 +1690,7 @@ msgstr "Lehrbücher"
 
 #: nav_head.html:67
 msgid "Sci-Fi"
-msgstr "Science Fiction"
+msgstr "Sciencefiction"
 
 #: nav_head.html:68
 msgid "Romance"
@@ -2066,7 +2068,7 @@ msgstr "Themensuche"
 
 #: openlibrary/templates/account.html:13
 msgid "Update Email Address"
-msgstr "Email-Adresse aktalisieren"
+msgstr "E-Mail-Adresse aktalisieren"
 
 #: openlibrary/templates/account.html:14
 msgid "Your Notifications"
@@ -2198,7 +2200,7 @@ msgstr "%s wurde nicht gefunden"
 
 #: openlibrary/templates/notfound.html:10
 msgid "404 - Page Not Found"
-msgstr "404 - Seite nicht gefunden"
+msgstr "404 – Seite nicht gefunden"
 
 #: openlibrary/templates/notfound.html:14
 #, python-format
@@ -2234,7 +2236,7 @@ msgstr ""
 
 #: openlibrary/templates/subjects.html:507
 msgid "Related..."
-msgstr "Verknüpft..."
+msgstr "Verknüpft…"
 
 #: openlibrary/templates/subjects.html:544
 msgid "Prolific Authors"
